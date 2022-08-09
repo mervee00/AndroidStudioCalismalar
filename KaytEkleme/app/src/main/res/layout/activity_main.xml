@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="675dp"
+        android:background="#FF9800"
+        android:orientation="vertical"
+        android:padding="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <TextView
+            android:id="@+id/adtextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="AD"
+            android:textColor="#FFFF"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/adeditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adınızı Giriniz"
+            android:inputType="" />
+
+        <TextView
+            android:id="@+id/soyadtextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="SOYAD"
+            android:textColor="#FFFF"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/soyadeditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soyadınızı Giriniz"
+            android:inputType="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/kaydetbutton"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kaydet" />
+
+            <Button
+                android:id="@+id/listelebutton"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Listele" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/adlartextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Kaydedilen AD"
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/adlareditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="AD"
+            android:inputType=""></EditText>
+
+        <TextView
+            android:id="@+id/soyadlartextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="KAYDEDİLEN SOYAD"
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/soyadlareditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SoyAD"
+            android:inputType=""></EditText>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

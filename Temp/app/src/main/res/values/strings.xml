@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Hafta12</string>
+    <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
+    <string name="dt">Dogum Tarihi</string>
+    <string name="dy">Dogrum Yeri</string>
+    <string name="uni">Universite</string>
+    <string name="bolum">Bolum</string>
+    <string name="buton">Kaydet</string>
+
+    <string-array name="dy_array">
+        <item>Seciniz</item>
+        <item>Istanbul</item>
+        <item>Ankara</item>
+        <item>Adana</item>
+    </string-array>
+
+    <string-array name="uni_array">
+        <item>Seciniz</item>
+        <item>Gazi</item>
+        <item>ODTU</item>
+        <item>ITU</item>
+    </string-array>
+
+    <string-array name="bolum_array">
+        <item>Seciniz</item>
+        <item>Bilgisayar</item>
+        <item>Makine</item>
+        <item>Elektrik</item>
+    </string-array>
+
+</resources>

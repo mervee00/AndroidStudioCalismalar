@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6E7F1"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="413dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="588dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="3dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="410dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="357dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="413dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="5dp">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="6" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2"
+        app:layout_constraintVertical_bias="0.049"
+        tools:layout_editor_absoluteX="6dp">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="9" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="409dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="0" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="411dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow4"
+        app:layout_constraintVertical_bias="0.077"
+        tools:layout_editor_absoluteX="3dp">
+
+        <Button
+            android:id="@+id/cikarma"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/silme"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="SİL" />
+
+        <Button
+            android:id="@+id/bolme"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="/" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="409dp"
+        android:layout_height="109dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow5"
+        tools:layout_editor_absoluteX="5dp">
+
+        <Button
+            android:id="@+id/toplama"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/hesapla"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:text="HESAPLA" />
+
+        <Button
+            android:id="@+id/carpma"
+            android:layout_width="136dp"
+            android:layout_height="71dp"
+            android:textSize="25dp"
+            android:text="*" />
+    </TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
